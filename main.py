@@ -1,4 +1,5 @@
 import os
+from selected_games_analysis import run_selected_games_analysis
 from src.game_theory import (
     solve_common_payoff_games,
     solve_conflicting_payoff_games,
@@ -40,6 +41,10 @@ print(f'Total valid inhibition matrices built: {len(inhibition_matrices)}')
 
 # Ensure results directory exists
 os.makedirs('results', exist_ok=True)
+
+summary_results_df = run_selected_games_analysis(
+inhibition_matrices, ic50_map, beta=0.05
+)
 
 # Solve Common Payoff Games
 print('Solving common-payoff games...')
