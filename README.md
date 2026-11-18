@@ -58,10 +58,12 @@ drug-synergy-project/
 Ensure you have Python 3.8+ installed along with the required libraries:
 ```bash
 pip install -r requirements.txt
+```
 ### 2. Running the Analysis
 To run the primary workflow and generate the game-theoretic evaluations and summary tables in your terminal, execute:
 ```bash
 python main.py
+```
 ## Key Outputs
 * **Payoff Matrices:** Detailed matrix evaluations displaying individual utilities $(U_A, U_B)$ and marking optimal strategies ($\text{★}$).
 * **Summary Tables:** Exported CSV and Excel files (`Selected_6_Games_Summary.xlsx`) capturing optimal doses, individual payoffs, total joint payoff, and equilibrium types.
