@@ -51,8 +51,8 @@ drug-synergy-project/
 ├── main.py                    # Main pipeline orchestrator
 ├── requirements.txt           # Python dependencies
 └── README.md                  # Project documentation
-
-##  Getting Started
+```
+##   Getting Started
 
 ### 1. Prerequisites
 Ensure you have Python 3.8+ installed along with the required libraries:
