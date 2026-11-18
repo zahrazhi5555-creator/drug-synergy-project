@@ -1,6 +1,6 @@
-# Drug Synergy & Asymmetric Game Theory Modeling
+# Drug Synergy & Conflicting_Payoff Game Theory Modeling
 
-A computational bioinformatics framework for evaluating optimal drug combination doses and synergy in cancer cell lines using **Asymmetric Game Theory**, **Nash Equilibrium analysis**, and **Dose-Penalty Optimization**.
+A computational bioinformatics framework for evaluating optimal drug combination doses and synergy in cancer cell lines using **Conflicting_Payoff Game Theory**, **Nash Equilibrium analysis**, and **Dose-Penalty Optimization**.
 
 ---
 
@@ -18,7 +18,7 @@ Combination therapy is a cornerstone of modern cancer treatment, yet identifying
 
 ##  Key Methodological Components
 1. **Empirical Reference Concentration ($\text{IC}_{50}$):** Integrated database screening and empirical reference mapping to normalize dose responses.
-2. **Asymmetric Payoff Matrix Formulation:** 
+2. **Conflicting Payoff Matrix Formulation:** 
    $$\text{Payoff}_A = \text{Inhibition} - \beta \left(\frac{\text{Dose}_A}{\text{IC}_{50, A}}\right)$$
    $$\text{Payoff}_B = \text{Inhibition} - \beta \left(\frac{\text{Dose}_B}{\text{IC}_{50, B}}\right)$$
    where $\beta$ represents the penalty factor for high-dose toxicity.
@@ -52,16 +52,22 @@ drug-synergy-project/
 ├── requirements.txt           # Python dependencies
 └── README.md                  # Project documentation
 
-Getting Started:
-__1. Prerequisites__
+##  Getting Started
+
+### 1. Prerequisites
 Ensure you have Python 3.8+ installed along with the required libraries:
+```bash
 pip install -r requirements.txt
-__2. Running the Analysis__
+### 2. Running the Analysis
 To run the primary workflow and generate the game-theoretic evaluations and summary tables in your terminal, execute:
+```bash
 python main.py
-__3.Key Outputs__
-**Payoff Matrices:** Detailed matrix evaluations displaying individual utilities $(U_A, U_B)$ and marking optimal strategies ($\text{★}$).
-**Summary Tables:** Exported CSV and Excel files (Selected_6_Games_Summary.xlsx) capturing optimal doses, individual payoffs, total joint payoff, and equilibrium types.
-**Robustness Plots:** Sensitivity curves illustrating optimal dose stability across varying penalty factors ($\beta$).
-**License & Citation**
+## Key Outputs
+* **Payoff Matrices:** Detailed matrix evaluations displaying individual utilities $(U_A, U_B)$ and marking optimal strategies ($\text{★}$).
+* **Summary Tables:** Exported CSV and Excel files (`Selected_6_Games_Summary.xlsx`) capturing optimal doses, individual payoffs, total joint payoff, and equilibrium types.
+* **Robustness Plots:** Sensitivity curves illustrating optimal dose stability across varying penalty factors ($\beta$).
+
+---
+
+## License & Citation
 This project is developed for academic research. If you use or adapt this code for your research, please cite the corresponding publication.
