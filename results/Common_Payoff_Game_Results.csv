@@ -1,0 +1,68 @@
+Drug_A,Drug_B,Cell_Line,Matrix_Shape,Optimal_Dose_A_uM,Optimal_Dose_B_uM,Max_Inhibition_Payoff,Equilibrium_Type
+5-FU,BEZ-235,A375,4x2,3.25,0.09,0.5755,Pareto Optimal Nash
+5-FU,Dasatinib,A375,3x3,10.0,3.0,0.5812,Unique Nash
+5-FU,AZD1775,A375,4x3,10.0,0.2,0.5369,Pareto Optimal Nash
+BEZ-235,Dinaciclib,A375,2x3,0.09,0.0032,0.5235,Pareto Optimal Nash
+Bortezomib,Dasatinib,A375,2x2,0.009,0.024,0.5961,Pareto Optimal Nash
+Dasatinib,BEZ-235,A375,2x2,3.0,0.02,0.533,Unique Nash
+Dasatinib,geldanamycin,A375,4x2,0.6,0.45,0.5621,Pareto Optimal Nash
+Dasatinib,Dinaciclib,A375,4x2,0.6,0.0115,0.5478,Pareto Optimal Nash
+Etoposide,Dasatinib,A375,3x4,0.9,0.6,0.5464,Pareto Optimal Nash
+Etoposide,geldanamycin,A375,3x4,0.2,2.0,0.5866,Pareto Optimal Nash
+geldanamycin,BEZ-235,A375,3x2,0.1,0.09,0.5311,Pareto Optimal Nash
+geldanamycin,Dinaciclib,A375,2x2,0.0223,0.0115,0.4909,Pareto Optimal Nash
+AZD1775,BEZ-235,A375,3x2,0.5,0.0045,0.5894,Pareto Optimal Nash
+AZD1775,Dasatinib,A375,4x4,0.2,0.12,0.583,Pareto Optimal Nash
+AZD1775,geldanamycin,A375,3x3,0.2,0.45,0.5881,Pareto Optimal Nash
+AZD1775,Lapatinib,A375,2x4,0.5,5.0,0.5996,Unique Nash
+AZD1775,MK-2206,A375,2x3,0.2,4.0,0.5495,Pareto Optimal Nash
+AZD1775,Dinaciclib,A375,2x3,0.0325,0.0115,0.5132,Pareto Optimal Nash
+MK-2206,BEZ-235,A375,3x2,0.2,0.09,0.5903,Pareto Optimal Nash
+MK-2206,Dasatinib,A375,4x2,0.9,3.0,0.5556,Pareto Optimal Nash
+Temozolomide,ABT-888,A375,2x3,250.0,1.08,0.5742,Pareto Optimal Nash
+Temozolomide,BEZ-235,A375,4x2,55.0,0.09,0.561,Pareto Optimal Nash
+Temozolomide,Dasatinib,A375,2x2,250.0,3.0,0.4645,Unique Nash
+Temozolomide,AZD1775,A375,4x3,250.0,0.2,0.544,Pareto Optimal Nash
+AZD1775,BEZ-235,HCT116,4x3,0.2,0.09,0.5246,Pareto Optimal Nash
+MK-2206,BEZ-235,HCT116,4x2,4.0,0.4,0.5532,Unique Nash
+Zolinza,BEZ-235,HCT116,2x2,1.15,0.02,0.5616,Pareto Optimal Nash
+5-FU,BEZ-235,HT29,4x4,0.35,0.4,0.5909,Pareto Optimal Nash
+5-FU,AZD1775,HT29,2x3,10.0,0.08,0.5103,Unique Nash
+5-FU,MK-2206,HT29,2x4,10.0,4.0,0.5874,Unique Nash
+5-FU,MK-5108,HT29,2x4,10.0,2.0,0.5969,Unique Nash
+5-FU,Zolinza,HT29,3x3,10.0,0.325,0.4878,Pareto Optimal Nash
+ABT-888,BEZ-235,HT29,4x2,3.25,0.4,0.5389,Unique Nash
+Dexamethasone,BEZ-235,HT29,4x2,3.25,0.4,0.5387,Unique Nash
+Etoposide,BEZ-235,HT29,4x4,0.045,0.4,0.5576,Pareto Optimal Nash
+Etoposide,Dasatinib,HT29,3x4,0.9,3.0,0.5929,Pareto Optimal Nash
+Etoposide,AZD1775,HT29,2x3,4.0,0.08,0.5984,Pareto Optimal Nash
+Etoposide,MK-2206,HT29,2x4,4.0,4.0,0.5585,Unique Nash
+Etoposide,MK-5108,HT29,2x4,4.0,0.225,0.5028,Pareto Optimal Nash
+Etoposide,Dinaciclib,HT29,4x3,0.9,0.0115,0.5631,Unique Nash
+Etoposide,Zolinza,HT29,3x3,4.0,0.325,0.537,Pareto Optimal Nash
+Lapatinib,BEZ-235,HT29,3x2,0.055,0.4,0.558,Unique Nash
+Lapatinib,MK-2206,HT29,4x3,1.1,4.0,0.5662,Pareto Optimal Nash
+Metformin,BEZ-235,HT29,4x2,250.0,0.4,0.5491,Unique Nash
+AZD1775,BEZ-235,HT29,3x4,0.0325,0.4,0.5545,Pareto Optimal Nash
+MK-2206,Dasatinib,HT29,3x4,0.045,3.0,0.5863,Pareto Optimal Nash
+MK-5108,BEZ-235,HT29,4x2,2.0,0.4,0.5898,Unique Nash
+MK-5108,Dasatinib,HT29,4x3,0.225,3.0,0.5592,Pareto Optimal Nash
+Temozolomide,BEZ-235,HT29,4x2,250.0,0.4,0.5593,Unique Nash
+Zolinza,BEZ-235,HT29,3x3,0.0925,0.4,0.5236,Pareto Optimal Nash
+Zolinza,MK-2206,HT29,3x3,1.15,0.9,0.5849,Pareto Optimal Nash
+AZD1775,BEZ-235,RKO,3x3,0.0325,0.4,0.5368,Pareto Optimal Nash
+Zolinza,BEZ-235,RKO,4x3,1.15,0.4,0.5797,Pareto Optimal Nash
+Zolinza,AZD1775,RKO,4x4,1.15,0.5,0.5871,Pareto Optimal Nash
+Bortezomib,BEZ-235,VCAP,2x2,0.002,0.09,0.592,Unique Nash
+Etoposide,BEZ-235,VCAP,3x3,0.9,0.09,0.5871,Unique Nash
+Etoposide,AZD1775,VCAP,2x2,0.9,0.0325,0.4847,Pareto Optimal Nash
+Etoposide,MK-2206,VCAP,3x3,0.045,0.9,0.5699,Pareto Optimal Nash
+Etoposide,Zolinza,VCAP,3x3,0.9,0.325,0.5527,Pareto Optimal Nash
+Lapatinib,MK-2206,VCAP,4x2,0.245,0.9,0.5458,Pareto Optimal Nash
+AZD1775,BEZ-235,VCAP,2x2,0.0325,0.09,0.5736,Pareto Optimal Nash
+AZD1775,MK-2206,VCAP,3x2,0.0325,0.9,0.5286,Pareto Optimal Nash
+MK-2206,BEZ-235,VCAP,2x2,0.045,0.09,0.5682,Pareto Optimal Nash
+MK-2206,Dasatinib,VCAP,2x4,0.9,3.0,0.5629,Unique Nash
+Zolinza,BEZ-235,VCAP,3x2,0.0925,0.09,0.5751,Pareto Optimal Nash
+Zolinza,Bortezomib,VCAP,2x2,1.15,0.0004,0.5561,Pareto Optimal Nash
+Zolinza,MK-2206,VCAP,2x2,1.15,0.045,0.5209,Pareto Optimal Nash
