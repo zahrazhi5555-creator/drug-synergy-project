@@ -19,9 +19,9 @@ Combination therapy is a cornerstone of modern cancer treatment, yet identifying
 ##  Key Methodological Components
 1. **Empirical Reference Concentration ($\text{IC}_{50}$):** Integrated database screening and empirical reference mapping to normalize dose responses.
 2. **Conflicting Payoff Matrix Formulation:** 
-   $$\text{Payoff}_A = \text{Inhibition} - \beta \left(\frac{\text{Dose}_A}{\text{IC}_{50, A}}\right)$$
-   $$\text{Payoff}_B = \text{Inhibition} - \beta \left(\frac{\text{Dose}_B}{\text{IC}_{50, B}}\right)$$
-   where $\beta$ represents the penalty factor for high-dose toxicity.
+  Payoff_A = Inhibition - β * (Dose_A / IC50_A)
+  Payoff_B = Inhibition - β * (Dose_B / IC50_B)
+where $\beta$ represents the penalty factor for high-dose toxicity.
 3. **Equilibrium Extraction:** Identifies **Pure Nash Equilibria** or falls back to **Pareto Optimal** strategies (maximizing total joint payoff) when strict pure equilibria are absent.
 4. **Robustness & Stability Analysis:** Evaluates sensitivity across a wide range of penalty factors ($\beta \in [0.0, 2.0]$) to ensure model stability.
 
