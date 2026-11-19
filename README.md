@@ -20,6 +20,7 @@ Combination therapy is a cornerstone of modern cancer treatment, yet identifying
 1. **Empirical Reference Concentration ($\text{IC}_{50}$):** Integrated database screening and empirical reference mapping to normalize dose responses.
 2. **Conflicting Payoff Matrix Formulation:** 
   Payoff_A = Inhibition - β * (Dose_A / IC50_A)
+  
   Payoff_B = Inhibition - β * (Dose_B / IC50_B)
 where $\beta$ represents the penalty factor for high-dose toxicity.
 3. **Equilibrium Extraction:** Identifies **Pure Nash Equilibria** or falls back to **Pareto Optimal** strategies (maximizing total joint payoff) when strict pure equilibria are absent.
